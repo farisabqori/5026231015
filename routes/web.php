@@ -16,4 +16,38 @@ Route::get('blog', function () {
 	return view('blog');
 });
 
+Route::get('ets', function () {
+	return view('ets');
+});
 
+Route::get('pertemuan4', function () {
+	return view('bootstrap_latihan');
+});
+
+Route::get('pertemuan3', function () {
+	return view('bootstrap1');
+});
+
+Route::get('pertemuan7a', function () {
+	return view('js1');
+});
+
+Route::get('pertemuan1', function () {
+	return view('pertama');
+});
+
+Route::get('pertemuan5', function () {
+	return view('tugas_linktree');
+});
+
+Route::get('pertemuan7b', function () {
+	return view('validasi1');
+});
+
+Route::get('frontend', function () {
+	return view('frontend');
+});
+
+Route::get('fronen', function () {
+	return view('fronen');
+});
