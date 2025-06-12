@@ -88,32 +88,32 @@
                 <a class="nav-link" href="/frontend"><i class="fas fa-laptop-code"></i> All Front End</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="/ets"><i class="fas fa-star"></i> ETS</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="/pegawai"><i class="fas fa-user-tie"></i> Pegawai</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pegawai"><i class="fas fa-tasks"></i> Tugas CRUD</a>
+                <a class="nav-link" href="/sofa"><i class="fas fa-tasks"></i> Tugas CRUD</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-star"></i> EAS</a>
+                <a class="nav-link" href="/#"><i class="fas fa-book-open"></i> Latihan 1</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pertemuan1"><i class="fas fa-book-open"></i> Latihan 1</a>
+                <a class="nav-link" href="/karyawan"><i class="fas fa-book-open"></i> Latihan 2</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pertemuan3"><i class="fas fa-book-open"></i> Latihan 2</a>
+                <a class="nav-link" href="/#"><i class="fas fa-book-open"></i> Latihan 3</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pertemuan4"><i class="fas fa-book-open"></i> Latihan 3</a>
-            </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
                 <a class="nav-link" href="/pertemuan7a"><i class="fas fa-book-open"></i> Latihan 4</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/pertemuan7b"><i class="fas fa-book-open"></i> Latihan 5</a>
-            </li>
-            <li class="nav-item">
+            </li> --}}
+            {{-- <li class="nav-item">
                 <a class="nav-link" href="/pertemuan5"><i class="fas fa-link"></i> Tugas Linktree</a>
-            </li>
+            </li> --}}
         </ul>
     </nav>
 

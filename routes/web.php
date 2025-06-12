@@ -6,6 +6,7 @@ use App\Http\Controllers\Pegawai2Controller;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\SofaController;
+use App\Http\Controllers\KaryawanController;
 
 
 //import java.io
@@ -89,4 +90,12 @@ Route::post('/sofa/update', [SofaController::class, 'update']);
 Route::get('/sofa/hapus/{id}', [SofaController::class, 'delete']);
 Route::get('/sofa/cari', [SofaController::class, 'search']);
 Route::get('/sofa/detail/{id}', [SofaController::class, 'show']);
+
+//dataKaryawan
+// Halaman Index (daftar karyawan)
+Route::get('/karyawan', [KaryawanController::class, 'index']);
+// Halaman Form Tambah Karyawan
+Route::get('/karyawan/tambah', [KaryawanController::class, 'tambah']);
+// Proses Hapus Data
+Route::delete('/karyawan/delete/{kodepegawai}', [KaryawanController::class, 'delete']);
 
