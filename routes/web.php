@@ -5,6 +5,7 @@ use App\Http\Controllers\DosenController;
 use App\Http\Controllers\Pegawai2Controller;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
+use App\Http\Controllers\SofaController;
 
 
 //import java.io
@@ -78,4 +79,14 @@ Route::get('/pegawai/edit/{id}', [PegawaiDBController::class, 'edit']);
 Route::post('/pegawai/update', [PegawaiDBController::class, 'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
 Route::get('/pegawai/cari', [PegawaiDBController::class, 'cari']);
+
+//dataSofa
+Route::get('/sofa', [SofaController::class, 'index']);
+Route::get('/sofa/tambah', [SofaController::class, 'tambah']);
+Route::post('/sofa/store', [SofaController::class, 'store']);
+Route::get('/sofa/edit/{id}', [SofaController::class, 'edit']);
+Route::post('/sofa/update', [SofaController::class, 'update']);
+Route::get('/sofa/hapus/{id}', [SofaController::class, 'delete']);
+Route::get('/sofa/cari', [SofaController::class, 'search']);
+Route::get('/sofa/detail/{id}', [SofaController::class, 'show']);
 
