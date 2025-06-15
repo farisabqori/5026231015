@@ -97,13 +97,13 @@
                 <a class="nav-link" href="/sofa"><i class="fas fa-tasks"></i> Tugas CRUD</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/#"><i class="fas fa-book-open"></i> Latihan 1</a>
+                <a class="nav-link" href="/pagecounter"><i class="fas fa-book-open"></i> Latihan 1</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/karyawan"><i class="fas fa-book-open"></i> Latihan 2</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/#"><i class="fas fa-book-open"></i> Latihan 3</a>
+                <a class="nav-link" href="/karyawan2"><i class="fas fa-book-open"></i> Latihan 3</a>
             </li>
             {{-- <li class="nav-item">
                 <a class="nav-link" href="/pertemuan7a"><i class="fas fa-book-open"></i> Latihan 4</a>

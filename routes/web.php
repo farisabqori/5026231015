@@ -7,6 +7,8 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\SofaController;
 use App\Http\Controllers\KaryawanController;
+use App\Http\Controllers\CounterController;
+use App\Http\Controllers\KaryawanController2;
 
 
 //import java.io
@@ -99,3 +101,12 @@ Route::get('/karyawan/tambah', [KaryawanController::class, 'tambah']);
 // Proses Hapus Data
 Route::delete('/karyawan/delete/{kodepegawai}', [KaryawanController::class, 'delete']);
 
+//pagecounter
+Route::get('/pagecounter', [CounterController::class, 'index']);
+
+//karyawancontroller2
+Route::get('/karyawan2', [KaryawanController::class, 'index']);
+Route::get('/karyawan2/tambah', [KaryawanController::class, 'tambah']);
+Route::post('/karyawan2/store', [KaryawanController::class, 'store']); //jika form dikirim, route ini akan dijalankan
+Route::post('/karyawan2/update',[KaryawanController::class, 'update']);
+Route::get('/karyawan2/hapus/{id}', [KaryawanController::class, 'hapus']);
